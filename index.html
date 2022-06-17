@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional personal website about the services I offer as a Web Developer and business professional.">
+    <meta name="keywords" content="Web Development, Administration, Project Management">
+    <meta name="author" content="Amani Magdoubi">
+    <title>Homepage - Amani Magdoubi</title>
+
+    <!-- Styles - CSS and fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navBanner">
+            <img src="./img/logo.png" alt="Pink Logo - Amani Magdoubi">
+            <a href="#aboutSection">About</a>
+            <a href="#mediaSection">Media</a>
+            <a href="#whyAmaniSection">Why Amani Magdoubi</a>
+            <a href="#newsEventsSection">News, Events & Resources</a>
+            <button id="btnOne"><a href="#bookingForm">Book a Free Consultation</a></button>
+        </nav>
+
+        <div id="hero">
+            <div id="textContainer"> 
+                <div id="contentContainer">
+                    <h1 id="text">Amani Magdoubi: Web Developer and helps your business to thrive online!</h1>
+                    <div id="button">
+                        <button class="btnTwo">Web Development</button>
+                        <button class="btnTwo">Administration & Project Management</button>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </header>
+
+    <div>
+        <h2>AMANI MAGDOUBI</h2>
+    </div>
+
+    <section class="serviceOne">
+        <div class="serviceHeading"> 
+            <h3>AMANI MAGDOUBI</h3>
+            <h4>Web Development</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati cum vitae placeat. Mollitia nemo exercitationem reprehenderit quibusdam nisi debitis inventore corporis hic animi, tenetur repudiandae doloremque ipsa in rerum natus!Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati cum vitae placeat. Mollitia nemo exercitationem reprehenderit quibusdam nisi debitis inventore corporis hic animi, tenetur repudiandae doloremque ipsa in rerum natus!</p>
+            <button class="btnThree">Web Development</button>
+        </div>
+
+        <div class="serviceImage">
+            <img id="amaniImageTwo" src="./img/amaniImageTwo.png" alt="Amani - a muslim women in a pink headscarf holding balloons and smiling">
+        </div>
+       
+    </section>
+
+    <section class="serviceTwo">
+        <div class="serviceImage">
+            <img id="amaniMovema" src="./img/amaniMovema.png" alt="Amani at a work event as Movema's Administrator wearing a white headscarf and blue dress standing next to her colleague Lauren holding an Instagram photo frame.">
+        </div>
+
+        <div class="serviceHeading">
+            <h3>AMANI MAGDOUBI</h3>
+            <h4>Administration & Project Management</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati cum vitae placeat. Mollitia nemo exercitationem reprehenderit quibusdam nisi debitis inventore corporis hic animi, tenetur repudiandae doloremque ipsa in rerum natus!</p>
+            <button class="btnThree">Administration & Project Management</button>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h3>TESTIMONIALS</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem praesentium totam minima qui natus hic eaque officiis? Quidem id, vel, dicta dolorum animi ducimus aperiam, illum error qui dolorem iste.</p>
+        <h4>name</h4>
+    </section>
+
+    <section class="serviceThree">
+        <h3>AMANI MAGDOUBI</h3>
+        <h4>Creative & Volunteer</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati cum vitae placeat. Mollitia nemo exercitationem reprehenderit quibusdam nisi debitis inventore corporis hic animi, tenetur repudiandae doloremque ipsa in rerum natus!</p>
+        <button class="btnThree">Creative & Volunteer</button>
+    </section>
+
+    <section class="aboutMe" id="aboutSection">
+        <h3>AMANI MAGDOUBI</h3>
+        <h4>The woman behind the brand</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam hic officia quae quis aspernatur, at nam sit nostrum unde cupiditate quo neque non qui quibusdam! Porro voluptates eveniet aperiam facilis.</p>
+        <!-- Leads to a About Me page -->
+        <button>About Amani</button> 
+    </section>
+
+    <section class="media" id="mediaSection">
+        <h2>MEDIA</h2>
+        <!-- 3 modals -->
+    </section>
+
+    <section class="whyAmani" id="whyAmaniSection">
+        <h2>WHY AMANI MAGDOUBI?</h2>
+        <!-- hoover -->
+        <button>1) Over 5 years experience</button>
+        <button>2) MTA: Microsoft Introduction to Programming - Certified</button>
+        <button>3) Delivered over 10 Events across Liverpool </button>
+        <button>4) Planned 4 exhibitions and designed over 6 flyers</button>
+        <button>5) Awarded a Dean's List Scholarship Award</button>
+    </section>
+
+    <section class="newsEvents" id="newsEventsSection">
+        <h2>NEWS, EVENTS & RESOURCES</h2>
+    </section>
+
+    <section id="bookingForm">
+        <h4>BOOK A FREE CONSULTATION</h4>
+
+        <form>
+            <label for="name">Name*</label>
+            <input type="text" id="name" name="name" required minlength="3">
+
+            <label for="companyName">Company name</label>
+            <input type="text" id="companyName" name="companyName" minlength="3"><br>
+            
+            <label for="email">Email address*</label>
+            <input type="email" id="email" name="email" required minlength="6">
+
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" name="phone"><br>
+
+            <label for="support">What can I help you with?*</label> <br> 
+            <textarea id="support" name="support" rows="10" cols="50">
+            </textarea>
+
+            <br> 
+            <br> 
+            <input type="checkbox" id="notRobot" name="notRobot" value="notRobot">
+            <label for="notRobot">I'm not a robot</label><br>
+
+            <br>
+            <br>
+
+            <p>Like you, I value my privacy, so I promise never to share your data. If you’d like to find out more, please read my <a href="https://angelaprestoncoaching.com/privacy-policy/" target="_blank">Privacy Policy</a></p>
+            
+            <label for="phone">Phone number</label> <br>
+            <input type="tel" id="phone" name="phone"><br>
+            <p>This field is for validation purposes and should be left unchanged.</p>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <img src="./img/Logo.png" alt="Pink Logo - Amani Magdoubi">
+        <address>
+            <p>T. 07949954067</p>
+            <p>E. <a href="mailto:amanimagdoubi@gmail.com">amanimagdoubi@gmail.com </a></p>
+        </address>
+        <button>Web Development</button>
+        <button>Administration & Project Management</button>
+
+        <!-- LINK  -->
+        <i class="fa-brands fa-linkedin-in"></i>
+        <p><a href="https://www.linkedin.com/in/amanimagdoubi/" target="_blank">Click here to connect on LinkedIn</a></p>
+        <i class="fa-brands fa-instagram-square"></i>
+        <p><a href="https://www.instagram.com/aniqcoder/" target="_blank">Click here to connect on Instagram</a></p>
+    </footer>
+
+    <footer id="footerTwo">
+        <p>Copyright © 2020 Amani Magdoubi</p>
+        <a href="https://angelaprestoncoaching.com/privacy-policy/" target="_blank">Privacy Policy</a>
+        <p>Website Inspired by Andy The Creative and Angela Preston's Website</p>
+    </footer>    
+
+</body>
+</html>
